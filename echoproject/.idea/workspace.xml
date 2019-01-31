@@ -1,0 +1,1375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="049d7532-39ac-45e2-b398-2ac055327b70" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PooledHeapByteBuf.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/buffer/PooledHeapByteBuf.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="e#0#10537#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/io.netty.buffer.PooledHeapByteBuf" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/io.netty.buffer.PooledHeapByteBuf">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>io.netty.buffer.PooledHeapByteBuf</OriginalElement>
+              <nodes>
+                <node x="86.25" y="158.0">io.netty.buffer.AbstractByteBuf</node>
+                <node x="112.75" y="79.0">io.netty.buffer.ByteBuf</node>
+                <node x="75.75" y="395.0">io.netty.buffer.PooledHeapByteBuf</node>
+                <node x="91.75" y="316.0">io.netty.buffer.PooledByteBuf</node>
+                <node x="182.0" y="0.0">java.lang.Comparable</node>
+                <node x="29.25" y="237.0">io.netty.buffer.AbstractReferenceCountedByteBuf</node>
+                <node x="0.0" y="0.0">io.netty.util.ReferenceCounted</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="io.netty.buffer.AbstractReferenceCountedByteBuf" target="io.netty.buffer.AbstractByteBuf">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="io.netty.buffer.ByteBuf" target="io.netty.util.ReferenceCounted">
+                  <point x="-24.5" y="-14.5" />
+                  <point x="137.25" y="54.0" />
+                  <point x="81.0" y="54.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="io.netty.buffer.AbstractByteBuf" target="io.netty.buffer.ByteBuf">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="io.netty.buffer.PooledByteBuf" target="io.netty.buffer.AbstractReferenceCountedByteBuf">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="io.netty.buffer.PooledHeapByteBuf" target="io.netty.buffer.PooledByteBuf">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="io.netty.buffer.ByteBuf" target="java.lang.Comparable">
+                  <point x="24.5" y="-14.5" />
+                  <point x="186.25" y="54.0" />
+                  <point x="242.5" y="54.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-98.5" y="160.0" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/io.netty.buffer.PooledDirectByteBuf" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/io.netty.buffer.PooledDirectByteBuf">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>io.netty.buffer.PooledDirectByteBuf</OriginalElement>
+              <nodes>
+                <node x="86.25" y="158.0">io.netty.buffer.AbstractByteBuf</node>
+                <node x="112.75" y="79.0">io.netty.buffer.ByteBuf</node>
+                <node x="91.75" y="316.0">io.netty.buffer.PooledByteBuf</node>
+                <node x="182.0" y="0.0">java.lang.Comparable</node>
+                <node x="29.25" y="237.0">io.netty.buffer.AbstractReferenceCountedByteBuf</node>
+                <node x="0.0" y="0.0">io.netty.util.ReferenceCounted</node>
+                <node x="73.75" y="395.0">io.netty.buffer.PooledDirectByteBuf</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="io.netty.buffer.AbstractReferenceCountedByteBuf" target="io.netty.buffer.AbstractByteBuf">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="io.netty.buffer.ByteBuf" target="io.netty.util.ReferenceCounted">
+                  <point x="-24.5" y="-14.5" />
+                  <point x="137.25" y="54.0" />
+                  <point x="81.0" y="54.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="io.netty.buffer.PooledDirectByteBuf" target="io.netty.buffer.PooledByteBuf">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="io.netty.buffer.AbstractByteBuf" target="io.netty.buffer.ByteBuf">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="io.netty.buffer.PooledByteBuf" target="io.netty.buffer.AbstractReferenceCountedByteBuf">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="io.netty.buffer.ByteBuf" target="java.lang.Comparable">
+                  <point x="24.5" y="-14.5" />
+                  <point x="186.25" y="54.0" />
+                  <point x="242.5" y="54.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-98.5" y="160.0" />
+              <SelectedNodes>
+                <node>io.netty.buffer.AbstractReferenceCountedByteBuf</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/io.netty.buffer.UnpooledHeapByteBuf" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/io.netty.buffer.UnpooledHeapByteBuf">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>io.netty.buffer.UnpooledHeapByteBuf</OriginalElement>
+              <nodes>
+                <node x="65.75" y="158.0">io.netty.buffer.AbstractByteBuf</node>
+                <node x="92.25" y="79.0">io.netty.buffer.ByteBuf</node>
+                <node x="0.0" y="0.0">java.lang.Comparable</node>
+                <node x="8.75" y="237.0">io.netty.buffer.AbstractReferenceCountedByteBuf</node>
+                <node x="141.0" y="0.0">io.netty.util.ReferenceCounted</node>
+                <node x="46.25" y="316.0">io.netty.buffer.UnpooledHeapByteBuf</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="io.netty.buffer.UnpooledHeapByteBuf" target="io.netty.buffer.AbstractReferenceCountedByteBuf">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="io.netty.buffer.AbstractReferenceCountedByteBuf" target="io.netty.buffer.AbstractByteBuf">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="io.netty.buffer.ByteBuf" target="io.netty.util.ReferenceCounted">
+                  <point x="24.5" y="-14.5" />
+                  <point x="165.75" y="54.0" />
+                  <point x="222.0" y="54.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="io.netty.buffer.AbstractByteBuf" target="io.netty.buffer.ByteBuf">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="io.netty.buffer.ByteBuf" target="java.lang.Comparable">
+                  <point x="-24.5" y="-14.5" />
+                  <point x="116.75" y="54.0" />
+                  <point x="60.5" y="54.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="151.5" y="172.5" />
+              <SelectedNodes>
+                <node>io.netty.buffer.AbstractByteBuf</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/io.netty.buffer.UnpooledDirectByteBuf" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/io.netty.buffer.UnpooledDirectByteBuf">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>io.netty.buffer.UnpooledDirectByteBuf</OriginalElement>
+              <nodes>
+                <node x="86.25" y="158.0">io.netty.buffer.AbstractByteBuf</node>
+                <node x="112.75" y="79.0">io.netty.buffer.ByteBuf</node>
+                <node x="64.75" y="316.0">io.netty.buffer.UnpooledDirectByteBuf</node>
+                <node x="182.0" y="0.0">java.lang.Comparable</node>
+                <node x="29.25" y="237.0">io.netty.buffer.AbstractReferenceCountedByteBuf</node>
+                <node x="0.0" y="0.0">io.netty.util.ReferenceCounted</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="io.netty.buffer.AbstractReferenceCountedByteBuf" target="io.netty.buffer.AbstractByteBuf">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="io.netty.buffer.ByteBuf" target="io.netty.util.ReferenceCounted">
+                  <point x="-24.5" y="-14.5" />
+                  <point x="137.25" y="54.0" />
+                  <point x="81.0" y="54.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="io.netty.buffer.AbstractByteBuf" target="io.netty.buffer.ByteBuf">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="io.netty.buffer.ByteBuf" target="java.lang.Comparable">
+                  <point x="24.5" y="-14.5" />
+                  <point x="186.25" y="54.0" />
+                  <point x="242.5" y="54.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="io.netty.buffer.UnpooledDirectByteBuf" target="io.netty.buffer.AbstractReferenceCountedByteBuf">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-98.5" y="120.5" />
+              <SelectedNodes>
+                <node>io.netty.buffer.UnpooledDirectByteBuf</node>
+                <node>io.netty.util.ReferenceCounted</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnpooledDirectByteBuf.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/buffer/UnpooledDirectByteBuf.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#19567#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnpooledHeapByteBuf.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/buffer/UnpooledHeapByteBuf.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PooledDirectByteBuf.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/buffer/PooledDirectByteBuf.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="e#0#13524#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>calculateNewCapacity</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/NettyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/echo/EchoServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/echo/EchoServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/echo/Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/echo/OutboundHandler1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/echo/OutboundHandler2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/echo/InboundHandler2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/echo/EchoClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/echo/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/echo/CustomDecoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/decoder/DecoderEchoServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/echo/InboundHandler1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/decoder/CustomDecoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/encoder/CustomEncoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/chapter7/EchoClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/chapter7/ServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/chapter9/Config.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/chapter9/TcpCountHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/chapter9/NettyServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/chapter9/NettyClient.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/chapter7/EchoServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/chapter7/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/chapter7/ClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FutureTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/echo/EchoClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BufferTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="697" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="echo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="echoproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="echo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="echoproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="echo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="echoproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="echo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="echoproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="echo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="echoproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="echo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="echoproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="echo-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="echoproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xdclass/Desktop/echoproject/src/main/java/net/xdclass/chapter7/ServerHandler.java&#10;808&#9;PSI&#9;JAVA://sun.jvm.hotspot.debugger.win32.coff.DebugVC50SymbolEnums#MACHTYPE_INTEL_8086" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.xdclass.decoder" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/net/xdclass/chapter7-6" />
+      <recent name="$PROJECT_DIR$/src/main/java/net/xdclass/chapter7" />
+      <recent name="$PROJECT_DIR$/src/main/java/net/xdclass/echo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.EchoClient">
+    <configuration name="DecoderEchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.xdclass.decoder.DecoderEchoServer" />
+      <module name="echo-project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.xdclass.decoder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.xdclass.chapter7.EchoClient" />
+      <module name="echo-project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.xdclass.chapter7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="EchoServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.xdclass.chapter7.EchoServer" />
+      <module name="echo-project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.xdclass.chapter7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.xdclass.echo.EchoServer" />
+      <module name="echo-project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="FutureTest.testFuture" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="echo-project" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FutureTest" />
+      <option name="METHOD_NAME" value="testFuture" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.EchoServer" />
+      <item itemvalue="JUnit.FutureTest.testFuture" />
+      <item itemvalue="Application.DecoderEchoServer" />
+      <item itemvalue="Application.EchoServer (1)" />
+      <item itemvalue="Application.EchoClient" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EchoClient" />
+        <item itemvalue="Application.EchoServer (1)" />
+        <item itemvalue="Application.DecoderEchoServer" />
+        <item itemvalue="Application.EchoServer" />
+        <item itemvalue="JUnit.FutureTest.testFuture" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="049d7532-39ac-45e2-b398-2ac055327b70" name="Default" comment="" />
+      <created>1543765032669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543765032669</updated>
+      <workItem from="1543765035276" duration="2202000" />
+      <workItem from="1543840266991" duration="9604000" />
+      <workItem from="1544201080618" duration="25496000" />
+      <workItem from="1546323314489" duration="6403000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="NettyTest_testEventLoopNum - 2018.12.03 at 20h 34m 09s.xml">
+      <configuration name="NettyTest.testEventLoopNum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NettyTest_testEventLoopNum - 2018.12.03 at 20h 35m 34s.xml">
+      <configuration name="NettyTest.testEventLoopNum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FutureTest_testFuture - 2018.12.08 at 11h 29m 15s.xml">
+      <configuration name="FutureTest.testFuture" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FutureTest_testFuture - 2018.12.08 at 11h 30m 41s.xml">
+      <configuration name="FutureTest.testFuture" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FutureTest_testFuture - 2018.12.08 at 14h 23m 56s.xml">
+      <configuration name="FutureTest.testFuture" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="43705000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="720" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.013953488" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20840065" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34060606" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.4124031" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/encoder/CustomEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/handler/codec/MessageToMessageEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/channel/ChannelDuplexHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/handler/codec/ByteToMessageCodec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/handler/codec/MessageToMessageCodec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65">
+          <caret line="54" column="97" selection-start-line="54" selection-start-column="77" selection-end-line="54" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/handler/codec/LineBasedFrameDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/handler/codec/DelimiterBasedFrameDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="92" column="59" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/buffer/WrappedByteBuf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="788" column="19" selection-start-line="788" selection-start-column="19" selection-end-line="788" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/echo/EchoServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/chapter9/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/chapter9/NettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/chapter9/TcpCountHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/chapter9/NettyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/handler/codec/LengthFieldBasedFrameDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="236" column="31" lean-forward="true" selection-start-line="236" selection-start-column="31" selection-end-line="236" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/chapter7/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/nio/ByteBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8138">
+          <folding>
+            <element signature="e#0#55847#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/buffer/AbstractByteBuf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="314" column="31" selection-start-line="314" selection-start-column="31" selection-end-line="314" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/chapter7/EchoClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="32" column="54" lean-forward="true" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/chapter7/EchoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="46" column="55" lean-forward="true" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/chapter7/ServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/echo/EchoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/echo/InboundHandler1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/channel/PreferHeapByteBufAllocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+          <folding>
+            <element signature="e#2070#2071#0" expanded="true" />
+            <element signature="e#2115#2116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/buffer/AbstractByteBufAllocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="165" column="24" lean-forward="true" selection-start-line="165" selection-start-column="24" selection-end-line="165" selection-end-column="24" />
+          <folding>
+            <element signature="e#4800#4801#0" expanded="true" />
+            <element signature="e#4881#4882#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/chapter7/ClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/io.netty.buffer.ByteBuf">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>io.netty.buffer.ByteBuf</OriginalElement>
+          <nodes>
+            <node x="" y="">io.netty.buffer.ByteBuf</node>
+            <node x="" y="">java.lang.SuppressWarnings</node>
+            <node x="" y="">java.lang.Comparable</node>
+            <node x="" y="">io.netty.util.ReferenceCounted</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="244.0" y="54.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FutureTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/buffer/AbstractReferenceCountedByteBuf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/buffer/ByteBufUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11836">
+          <caret line="167" column="47" selection-start-line="167" selection-start-column="26" selection-end-line="167" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#57843#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/buffer/UnpooledByteBufAllocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#10627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/buffer/HeapByteBufUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#5450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/decoder/CustomDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/echo/EchoClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="41" column="61" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/channel/ChannelHandlerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="196" column="21" selection-start-line="196" selection-start-column="21" selection-end-line="196" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="108" column="37" lean-forward="true" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
+          <folding>
+            <element signature="e#4305#4306#0" expanded="true" />
+            <element signature="e#4361#4362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/channel/DefaultChannelConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2757">
+          <caret line="278" column="13" lean-forward="true" selection-start-line="278" selection-start-column="13" selection-end-line="278" selection-end-column="13" />
+          <folding>
+            <element signature="e#11027#11028#0" expanded="true" />
+            <element signature="e#11059#11060#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/buffer/ByteBufAllocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/buffer/PooledByteBufAllocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/echo/EchoClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/buffer/Unpooled.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="156" column="38" selection-start-line="156" selection-start-column="19" selection-end-line="156" selection-end-column="38" />
+          <folding>
+            <element signature="e#3519#3520#0" expanded="true" />
+            <element signature="e#3560#3561#0" expanded="true" />
+            <element signature="e#4106#4107#0" expanded="true" />
+            <element signature="e#4162#4163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BufferTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/buffer/ByteBuf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="263" column="7" lean-forward="true" selection-start-line="263" selection-start-column="7" selection-end-line="263" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/buffer/PooledHeapByteBuf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#0#10537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/buffer/PooledDirectByteBuf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#0#13524#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/io.netty.buffer.PooledHeapByteBuf">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>io.netty.buffer.PooledHeapByteBuf</OriginalElement>
+          <nodes>
+            <node x="86.25" y="158.0">io.netty.buffer.AbstractByteBuf</node>
+            <node x="112.75" y="79.0">io.netty.buffer.ByteBuf</node>
+            <node x="75.75" y="395.0">io.netty.buffer.PooledHeapByteBuf</node>
+            <node x="91.75" y="316.0">io.netty.buffer.PooledByteBuf</node>
+            <node x="182.0" y="0.0">java.lang.Comparable</node>
+            <node x="29.25" y="237.0">io.netty.buffer.AbstractReferenceCountedByteBuf</node>
+            <node x="0.0" y="0.0">io.netty.util.ReferenceCounted</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="io.netty.buffer.AbstractReferenceCountedByteBuf" target="io.netty.buffer.AbstractByteBuf">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.netty.buffer.ByteBuf" target="io.netty.util.ReferenceCounted">
+              <point x="-24.5" y="-14.5" />
+              <point x="137.25" y="54.0" />
+              <point x="81.0" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.netty.buffer.AbstractByteBuf" target="io.netty.buffer.ByteBuf">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.netty.buffer.PooledByteBuf" target="io.netty.buffer.AbstractReferenceCountedByteBuf">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.netty.buffer.PooledHeapByteBuf" target="io.netty.buffer.PooledByteBuf">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.netty.buffer.ByteBuf" target="java.lang.Comparable">
+              <point x="24.5" y="-14.5" />
+              <point x="186.25" y="54.0" />
+              <point x="242.5" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-98.5" y="160.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/buffer/UnpooledHeapByteBuf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/buffer/UnpooledDirectByteBuf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#19567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/io.netty.buffer.UnpooledDirectByteBuf">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>io.netty.buffer.UnpooledDirectByteBuf</OriginalElement>
+          <nodes>
+            <node x="86.25" y="158.0">io.netty.buffer.AbstractByteBuf</node>
+            <node x="112.75" y="79.0">io.netty.buffer.ByteBuf</node>
+            <node x="64.75" y="316.0">io.netty.buffer.UnpooledDirectByteBuf</node>
+            <node x="182.0" y="0.0">java.lang.Comparable</node>
+            <node x="29.25" y="237.0">io.netty.buffer.AbstractReferenceCountedByteBuf</node>
+            <node x="0.0" y="0.0">io.netty.util.ReferenceCounted</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="io.netty.buffer.AbstractReferenceCountedByteBuf" target="io.netty.buffer.AbstractByteBuf">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.netty.buffer.ByteBuf" target="io.netty.util.ReferenceCounted">
+              <point x="-24.5" y="-14.5" />
+              <point x="137.25" y="54.0" />
+              <point x="81.0" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.netty.buffer.AbstractByteBuf" target="io.netty.buffer.ByteBuf">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.netty.buffer.ByteBuf" target="java.lang.Comparable">
+              <point x="24.5" y="-14.5" />
+              <point x="186.25" y="54.0" />
+              <point x="242.5" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.netty.buffer.UnpooledDirectByteBuf" target="io.netty.buffer.AbstractReferenceCountedByteBuf">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-98.5" y="120.5" />
+          <SelectedNodes>
+            <node>io.netty.buffer.UnpooledDirectByteBuf</node>
+            <node>io.netty.util.ReferenceCounted</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/io.netty.buffer.PooledDirectByteBuf">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>io.netty.buffer.PooledDirectByteBuf</OriginalElement>
+          <nodes>
+            <node x="86.25" y="158.0">io.netty.buffer.AbstractByteBuf</node>
+            <node x="112.75" y="79.0">io.netty.buffer.ByteBuf</node>
+            <node x="91.75" y="316.0">io.netty.buffer.PooledByteBuf</node>
+            <node x="182.0" y="0.0">java.lang.Comparable</node>
+            <node x="29.25" y="237.0">io.netty.buffer.AbstractReferenceCountedByteBuf</node>
+            <node x="0.0" y="0.0">io.netty.util.ReferenceCounted</node>
+            <node x="73.75" y="395.0">io.netty.buffer.PooledDirectByteBuf</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="io.netty.buffer.AbstractReferenceCountedByteBuf" target="io.netty.buffer.AbstractByteBuf">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.netty.buffer.ByteBuf" target="io.netty.util.ReferenceCounted">
+              <point x="-24.5" y="-14.5" />
+              <point x="137.25" y="54.0" />
+              <point x="81.0" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.netty.buffer.PooledDirectByteBuf" target="io.netty.buffer.PooledByteBuf">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.netty.buffer.AbstractByteBuf" target="io.netty.buffer.ByteBuf">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.netty.buffer.PooledByteBuf" target="io.netty.buffer.AbstractReferenceCountedByteBuf">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.netty.buffer.ByteBuf" target="java.lang.Comparable">
+              <point x="24.5" y="-14.5" />
+              <point x="186.25" y="54.0" />
+              <point x="242.5" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-98.5" y="160.0" />
+          <SelectedNodes>
+            <node>io.netty.buffer.AbstractReferenceCountedByteBuf</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/io.netty.buffer.UnpooledHeapByteBuf">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>io.netty.buffer.UnpooledHeapByteBuf</OriginalElement>
+          <nodes>
+            <node x="65.75" y="158.0">io.netty.buffer.AbstractByteBuf</node>
+            <node x="92.25" y="79.0">io.netty.buffer.ByteBuf</node>
+            <node x="0.0" y="0.0">java.lang.Comparable</node>
+            <node x="8.75" y="237.0">io.netty.buffer.AbstractReferenceCountedByteBuf</node>
+            <node x="141.0" y="0.0">io.netty.util.ReferenceCounted</node>
+            <node x="46.25" y="316.0">io.netty.buffer.UnpooledHeapByteBuf</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="io.netty.buffer.UnpooledHeapByteBuf" target="io.netty.buffer.AbstractReferenceCountedByteBuf">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.netty.buffer.AbstractReferenceCountedByteBuf" target="io.netty.buffer.AbstractByteBuf">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.netty.buffer.ByteBuf" target="io.netty.util.ReferenceCounted">
+              <point x="24.5" y="-14.5" />
+              <point x="165.75" y="54.0" />
+              <point x="222.0" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.netty.buffer.AbstractByteBuf" target="io.netty.buffer.ByteBuf">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.netty.buffer.ByteBuf" target="java.lang.Comparable">
+              <point x="-24.5" y="-14.5" />
+              <point x="116.75" y="54.0" />
+              <point x="60.5" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="151.5" y="172.5" />
+          <SelectedNodes>
+            <node>io.netty.buffer.AbstractByteBuf</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>echo-project</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: io.netty:netty-all:4.1.32.Final</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
